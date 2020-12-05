@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    background-color: yellow;
+}
+
+#welcome {
+    background-color: blueviolet;
+    color: yellow;
+    z-index: 5;
+    padding: 50px;
+}
+
+#bio {
+    font-weight: bold;
+    background-color: crimson;
+    color: aliceblue;
+}
+
+#profile {
+    width: 500px;
+    border-radius: 40%;
+    height: 300px
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    z-index: 15;
+    cursor: pointer;
+
+
+}
+
+.links {
+    float: left;
+    color: red;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: aqua;
+}
+
+#videos {
+
+    background-color: skyblue;
+    padding: 80px;
+
+}
+
+#work {
+
+    background-color: seagreen;
+    padding: 80px;
+    margin-top: 80px;
+}
+
+#Motivation {
+    background-color: blueviolet;
+    padding: 80px;
+    margin-top: 80px;
+}
+
+#map {
+    background-color: orange;
+    padding: 80px;
+    margin-top: 80px;
+
+
+}
+
+#gallery img {
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+}
+
+.carousel-inner {
+    background-color: lightpink;
+    text-align: center;
+}
+
+#slide img {
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+}
